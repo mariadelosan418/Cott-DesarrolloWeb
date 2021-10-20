@@ -1,0 +1,309 @@
+/*
+    Fuentes directo de google-fonts con import
+    Los import van primeros 
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap'); 
+
+/* 
+    Colocar las fuentes de forma local: 
+    Descargar las fuentes de Google Fonts en formato WOFF2
+    desde: https://canonicalized.com/local-font/
+*/
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url("fonts/open-sans-condensed-v15-latin-300.woff2");
+}
+
+
+body {
+   
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    width: 90%;  
+    background: url(IMG/FONDO.png);
+}
+  
+.header{        
+    background: #ebf4f5;
+}
+/*BARRA DE NAVEGACIÓN SUPERIOR*/
+    
+.BARRA-SUPERIOR{
+  
+    margin-top: 40;
+    display:flex;
+    justify-content: space-between;
+ } 
+.barra-superior img{
+    width: 180px;
+    height:  50px;
+}
+.NAVEGA a{
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333333;
+}
+/*.NAVEGA UL LI{
+    font-size: 18px;
+    display:flex;
+    margin-left: 30PX;
+    FLOAT:left;
+    text-emphasis-position:  #f74545;
+     
+}*/
+
+.NAVEGA li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.NAVEGA a:hover{
+    color: #f74545;
+}
+
+
+/*PRINCIPAL----*/
+.principal{
+    margin-top: 100px;
+    margin-left: 0;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color:#231f20;
+}
+
+.intro {
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 1.7;
+    margin-bottom: 2.25em;
+    max-width: 33em;
+    margin-left: 0;
+}
+
+.boton {
+    font-size: 24px;
+}
+
+a.boton  {
+    background: #f74545;
+    color: #fff;
+    padding: 0.7em 1em 0.7em;
+    font-family: "'Oswald'", sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a.boton:hover {
+    background: black;
+}
+/*--SECCIÓN DE ARTICULOS-->*/
+/*.articulos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}*/
+.articulo {
+ 
+    justify-content: space-between;
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 23px;
+    width: 47.5%;
+    line-height: 20PX;
+}
+.articulo h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color:#231f20;
+    
+}
+.articulo p{
+    width: 550px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+
+.derecho {
+    margin-top: 150px;
+    padding: auto;
+    line-height: 20PX;
+}
+
+.derecho h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color:#231f20;
+}
+.derecho p{
+    initial-letter-align: 20PX;
+    width: 550px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+
+/*.articulo1 {
+    margin:auto;
+    width: 47.5%;
+    float: left;
+    margin: 0 auto;
+    
+}*/
+
+.imagen {
+    max-width: 100%;
+    width: auto;
+    
+    margin-bottom: 2.25em;
+    padding: auto;
+    margin-left: auto;
+}
+
+.Boton2{
+   
+    text-align: center;
+}
+
+.design{
+    margin-top: 0%;
+}
+
+.design h3{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7em;
+    color:#231f20;
+    line-height: 1.7;
+}
+
+.design p{
+    margin-top: 5px;
+    width: 65%;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 1.7;
+    color:#333333
+}
+
+.design a{
+
+    color: #231f20;
+    font-size: 24px;
+    font-family:sans-serif;
+ 
+    text-decoration: underline;
+}
+
+.design a:hover{
+    color: #f74545;
+}
+
+/*--BARRA DE NAVEGACIÓN HORIZONTAL */
+
+.barraLATERAL{
+    margin-top: auto;    
+}
+
+.barraLATERAL ul{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 50px;
+}
+
+
+.barraLATERAL li{
+    list-style: none;
+}
+
+.barraLATERAL img{
+    width: 620px;
+    padding-left: 30px;
+}
+/*--EMPRESAS--*/
+.tipos{
+    margin-top: 200px;
+}
+.tipos h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 7em;
+    color:#231f20;
+}
+.tira img{ 
+    width: 100%;
+    max-width: max-content;
+    justify-content: space-between;
+}
+/*BANNER FINAL*/
+
+.banner-end{
+    text-align: center;
+    margin-top: 150px;
+    line-height: 1.5;
+}
+
+.banner-end h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    color:#231f20;
+}
+
+.banner-end p{
+    width: 100%;
+    font-size: 30px;
+}
+
+.banner-end a{
+    background-color: #f74545;
+    padding:15px 30px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+.banner-end a:hover{
+    background-color: #231f20;
+}
+
+.banner1-enda{
+    margin-top: 40px;
+}
+/*PIE DE PAGINA REDES SOCIALES*/
+.FOOter{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.REDES_SOCIALES p{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+.REDES_SOCIALES a{
+    color:#333333;
+}
+
+.REDES_SOCIALES a:hover{
+    color: #f74545;
+}
